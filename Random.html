@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Michaelangelo | Random</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
-    <h1>My Favorite Artists</h1>
-
-    <section>
+    <section class="content">
+        <h1>My Favorite Artists</h1>
         <h2>Malcolm Todd</h2>
         <img src="Images/malcolm.jpg" alt="Malcolm Todd" width="200">
         <p>
@@ -17,14 +17,16 @@
         </p>
 
         <h3>Current Favorite Song:</h3>
-        <img src="Images/nemo.jpg" height="120"><br>
-        <p> Nemo - Malcolm Todd</p>
+        <img src="Images/nemo.jpg" height="150"><br>
+        <div class="italic">
+            <p> Nemo - Malcolm Todd</p>
+        </div>
         <audio controls>
             <source src="Media/nemo.mp3" type="audio/mpeg">
         </audio>
     </section>
 
-    <section>
+    <section class="content">
         <h2>Yorushika</h2>
         <img src="Images/yorushika.jpg" alt="Yorushika" width="200">
         <p>
@@ -35,8 +37,10 @@
         </p>
 
         <h3>Current Favorite Song:</h3>
-        <img src="Images/cappuccino.jpg" height="120"><br>
-        <p>雨とカプチーノ (Rain with Cappuccino) - Yorushika</p>
+        <img src="Images/cappuccino.jpg" height="150"><br>
+        <div class="italic">
+            <p>雨とカプチーノ (Rain with Cappuccino) - Yorushika</p>
+        </div>
 
         <audio controls>
             <source src="Media/cappuccino.mp3" type="audio/mpeg">
@@ -44,7 +48,12 @@
     </section>
 
     <br>
-    <a href="home.html">[ Go back to main menu ]</a>
+    <div class="sidenav">
+        <h3>
+            Menu:
+        </h3>
+        <a href="home.html">[ Back to main menu ]</a>
+    </div>
 
 </body>
 </html>
